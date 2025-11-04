@@ -1,0 +1,27 @@
+{
+  "name": "@adarshgupta0129/npm-lambda",
+  "version": "1.0.1",
+  "description": "My private npm package for Lambda",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshgupta0129/npm-lambda.git"
+  },
+  "publishConfig": {
+    "@adarshgupta0129:registry": "https://npm.pkg.github.com"
+  },
+  "author": "Adarsh Gupta",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
