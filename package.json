@@ -1,6 +1,6 @@
 {
   "name": "@adarshgupta0129/npm-lambda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My private npm package for Lambda",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
